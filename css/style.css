@@ -8,22 +8,114 @@
 
 :root {
   --primary-color: hsl(245, 75%, 52%);
-  --secondary-color: hsl(225, 100%, 94%);
+  --background-color: hsl(225, 100%, 94%);
 
   --pale-blue: hsl(225, 100%, 98%);
   --dark-blue: hsl(224, 23%, 55%);
   --desaturated-blue: hsl(223, 47%, 23%);
+
+  --white: hsl(360, 100%, 100%);
 }
 
 body {
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  background: url("../images/pattern-background-mobile.svg") top/contain
+    no-repeat;
+  background-color: var(--background-color);
 }
 
 p {
   font-size: 16px;
+  color: var(--dark-blue);
 }
 
+/* Utility */
+.center {
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  width: 90%;
+  margin: 1rem auto;
+  padding: 0.7em;
+  border-radius: 10px;
+  font-weight: 700;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.main-container {
+  width: 80%;
+  max-width: 375px;
+  margin: 10vh auto;
+}
+
+.hero-img-container img {
+  display: block;
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.content-container {
+  padding: 1rem;
+  background-color: var(--white);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0px 3px 5px var(--dark-blue);
+}
+
+.card-heading {
+  margin: 1rem auto;
+}
+
+.card-description {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.card-plan-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  background-color: var(--pale-blue);
+  padding: 1.2rem;
+  border-radius: 10px;
+}
+
+.card-plan-wrapper {
+  align-self: flex-end;
+}
+
+.card-plan-heading,
+.card-plan,
+.card-plan-link {
+  font-size: 1rem;
+}
+
+.card-plan-link {
+  align-self: center;
+}
+.btn-primary {
+  border: 2px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--white);
+  box-shadow: 0px 3px 5px var(--dark-blue);
+}
+
+.btn-secondary {
+  border: none;
+  background-color: var(--white);
+  color: var(--dark-blue);
+}
 @media screen and (min-width: 376px) and (max-width: 1440px) {
+  body {
+    background: url("../images/pattern-background-desktop.svg") top/contain
+      no-repeat;
+    background-color: var(--background-color);
+  }
 }
 
 .attribution {
