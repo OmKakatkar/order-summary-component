@@ -14,7 +14,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -53,6 +52,6 @@ This was my first ever UI challenge on Frontend Mentor. It was a little rough at
 - [StackOverFlow](https://stackoverflow.com/questions/11447707/div-container-larger-than-image-inside) - There was a 5px gap between the image and its container. This link fixed my problem.
 ## Author
 
-- Website - [Om Kakatkar](https://www.omkakatkar-portfolio.netlify.app)
+- Website - [Om Kakatkar](https://omkakatkar-portfolio.netlify.app/)
 - Frontend Mentor - [@OmKakatkar](https://www.frontendmentor.io/profile/OmKakatkar)
 - Twitter - [@omkakatkar](https://twitter.com/omkakatkar)
